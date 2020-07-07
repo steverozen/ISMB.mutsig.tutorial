@@ -1,6 +1,6 @@
 # ISMB.mutsig.tutorial
 
-Welcome to the ISMB2020 Online Mutational Signature Analysis Tutorial, July 11 and 20, 2020 (https://www.iscb.org/ismb2020-program/tutorials#tut1)
+Welcome to the ISMB2020 Online Mutational Signature Analysis Tutorial, July 11 and 12, 2020 (https://www.iscb.org/ismb2020-program/tutorials#tut1)
 
 ## Please do before the tutorial
 
