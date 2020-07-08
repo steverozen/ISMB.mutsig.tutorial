@@ -4,7 +4,14 @@ Welcome to the ISMB2020 Online Mutational Signature Analysis Tutorial, July 11 a
 
 ## Please do before the tutorial
 
-Please have R 4.0.0 installed on your computer and install the CRAN package ICAMS (install.packages("ICAMS") and its prerequisites.
+1. Please have R >= 4.0.0 installed on your computer.
+
+2. Please install the CRAN package ICAMS (install.packages("ICAMS") and its prerequisites.
+
+3. Please install BSgenome.Hsapiens.1000genomes.hs37d5 from Bioconductor:
+
+install.packages("BiocManager")
+BiocManager::install("BSgenome.Hsapiens.1000genomes.hs37d5")
 
 If you have difficulties contact Nanhai JIANG at nanhai.jiang@u.duke.nus.edu.
 
