@@ -16,10 +16,21 @@ install.packages("ICAMS")
 install.packages("BiocManager")
 BiocManager::install("BSgenome.Hsapiens.1000genomes.hs37d5")
 ```
+4. Additional R libraries that will be needed:
+
+4.1 CRAN packages philentropy, gplots, factoextra
+
+4.2 Github packages:
+```
+remotes::install_github("steverozen/mSigBG", ref = "1.0-branch")
+remotes::install_github("steverozen/PCAWG7")
+```
 
 If you have difficulties contact Nanhai JIANG at nanhai.jiang@u.duke.nus.edu.
 
 You will need this for the practicum on July 11. The practicum inputs will be released shortly. 
 
+The slides are:
 
+1. 
 
