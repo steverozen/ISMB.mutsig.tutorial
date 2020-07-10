@@ -32,5 +32,8 @@ You will need this for the practicum on July 11. The practicum inputs will be re
 
 The slides are:
 
-1. 
+0. https://github.com/steverozen/ISMB.mutsig.tutorial/raw/master/Tut1.Lecture.0.short.intro.pptx
+1. https://github.com/steverozen/ISMB.mutsig.tutorial/raw/master/Tut1.Lecture.1.Mutational-Signatures%202020_07_10.pptx
+2.
+3. https://github.com/steverozen/ISMB.mutsig.tutorial/raw/master/Tut1.lecture.3.landscape_tactics_20200710.pptx
 
