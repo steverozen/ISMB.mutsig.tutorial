@@ -28,7 +28,9 @@ remotes::install_github("steverozen/PCAWG7")
 
 If you have difficulties contact Nanhai JIANG at nanhai.jiang@u.duke.nus.edu.
 
-You will need this for the practicum on July 11. The practicum inputs will be released shortly. 
+You will need R and the above packages for the practicum on July 11. 
+
+The practicum inputs are at https://github.com/steverozen/ISMB.mutsig.tutorial/raw/master/ISMB.mutational.sigatures.practicum.zip. 
 
 The slides are:
 
