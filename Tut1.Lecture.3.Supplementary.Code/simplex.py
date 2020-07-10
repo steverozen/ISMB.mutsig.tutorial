@@ -2,7 +2,7 @@
 
 
 # Source code adapted from
-# https://gist.github.com/agitter/46b2169a035ad25b5d2b024a00344d54, author: Thomas Boggs
+# https://gist.github.com/agitter/46b2169a035ad25b5d2b024a00344d54 (author: Thomas Boggs)
 # by ferran.muinos@irbbarcelona.org
 
 
@@ -32,33 +32,34 @@ def xy2bc(xy, tol=1.e-3):
 class Dirichlet:
 
     def __init__(self, alpha):
-        '''Creates Dirichlet distribution with parameter `alpha`.'''
+        """Creates Dirichlet distribution with parameter `alpha`."""
+
         from math import gamma
         from operator import mul
         self._alpha = np.array(alpha)
         self._coef = gamma(np.sum(self._alpha)) / \
                      reduce(mul, [gamma(a) for a in self._alpha])
+
     def pdf(self, x):
-        '''Returns pdf value for `x`.'''
+        """Returns pdf value for `x`."""
         from operator import mul
         return self._coef * reduce(mul, [xx ** (aa - 1)
                                          for (xx, aa)in zip(x, self._alpha)])
+
     def sample(self, N):
-        '''Generates a random sample of size `N`.'''
+        """Generates a random sample of size `N`."""
         return np.random.dirichlet(self._alpha, N)
 
 
 def draw_pdf_contours(dist, border=False, nlevels=200, subdiv=8, **kwargs):
-    '''Draws pdf contours over an equilateral triangle (2-simplex).
+    """Draws pdf contours over an equilateral triangle (2-simplex).
     Arguments:
         `dist`: A distribution instance with a `pdf` method.
         `border` (bool): If True, the simplex border is drawn.
         `nlevels` (int): Number of contours to draw.
         `subdiv` (int): Number of recursive mesh subdivisions to create.
         kwargs: Keyword args passed on to `plt.triplot`.
-    '''
-    from matplotlib import ticker, cm
-    import math
+    """
 
     refiner = tri.UniformTriRefiner(_triangle)
     trimesh = refiner.refine_triangulation(subdiv=subdiv)
@@ -74,14 +75,14 @@ def draw_pdf_contours(dist, border=False, nlevels=200, subdiv=8, **kwargs):
 
 
 def plot_points(X, barycentric=True, border=True, **kwargs):
-    '''Plots a set of points in the simplex.
+    """Plots a set of points in the simplex.
     Arguments:
         `X` (ndarray): A 2xN array (if in Cartesian coords) or 3xN array
                        (if in barycentric coords) of points to plot.
         `barycentric` (bool): Indicates if `X` is in barycentric coords.
         `border` (bool): If True, the simplex border is drawn.
         kwargs: Keyword args passed on to `plt.plot`.
-    '''
+    """
     if barycentric is True:
         X = X.dot(_corners)
     plt.plot(X[:, 0], X[:, 1], 'k.', ms=1, **kwargs)
