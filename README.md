@@ -80,9 +80,12 @@ If you have difficulties contact Nanhai JIANG at nanhai.jiang@u.duke.nus.edu.
 
 You will need R and the above packages for the practicum on July 11. 
 
-## The practicum inputs are at https://github.com/steverozen/ISMB.mutsig.tutorial/raw/master/ISMB.mutational.sigatures.practicum.zip. 
+## The practicum inputs
 
-## The slides are:
+The inputs are at
+https://github.com/steverozen/ISMB.mutsig.tutorial/raw/master/ISMB.mutational.sigatures.practicum.zip. 
+
+## The slides
 
 0. https://github.com/steverozen/ISMB.mutsig.tutorial/raw/master/Tut1.Lecture.0.short.intro.pptx
 1. https://github.com/steverozen/ISMB.mutsig.tutorial/raw/master/Tut1.Lecture.1.Mutational-Signatures%202020_07_10.pptx
