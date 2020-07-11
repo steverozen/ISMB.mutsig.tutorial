@@ -4,9 +4,10 @@ Welcome to the ISMB2020 Online Mutational Signature Analysis Tutorial, July 11 a
 
 ## Please do before the tutorial
 
-1. Please have R >= 4.0.0 installed on your computer.
+1. Please have R >= 4.0.0 installed on your computer. You can find the latest release at 
+https://cloud.r-project.org/
 
-2. Please install the CRAN package ICAMS and its prerequisites.
+2. Please install the package ICAMS and its prerequisites from CRAN.
 ```
 install.packages("ICAMS")
 ```
