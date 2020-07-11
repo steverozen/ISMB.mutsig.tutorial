@@ -91,5 +91,5 @@ https://github.com/steverozen/ISMB.mutsig.tutorial/raw/master/ISMB.mutational.si
 0. https://github.com/steverozen/ISMB.mutsig.tutorial/raw/master/Tut1.Lecture.0.short.intro.pptx
 1. https://github.com/steverozen/ISMB.mutsig.tutorial/raw/master/Tut1.Lecture.1.Mutational-Signatures%202020_07_10.pptx
 2. https://github.com/steverozen/ISMB.mutsig.tutorial/raw/master/Tut1.Lecture.2.data-mining.NMF.and.HPD.2020.07.10.pptx
-3. https://github.com/steverozen/ISMB.mutsig.tutorial/raw/master/Tut1.Lecture.3.landscape-tactics.2020.07.10.pptx
+3. https://github.com/steverozen/ISMB.mutsig.tutorial/raw/master/Tut1.Lecture.3.landscape_tactics_20200710.pptx
 
