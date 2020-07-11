@@ -21,8 +21,33 @@ BiocManager::install("BSgenome.Hsapiens.1000genomes.hs37d5")
 4.1 CRAN packages philentropy, gplots, factoextra
 
 4.2 GitHub packages:  
-To install R packages from GitHub, you will need development tool to build the
-package from source file.
+
+Thare are 2 ways to install these.  
+
+4.2.1 If you do not have Rtools, then download from 
+
+https://github.com/steverozen/ISMB.mutsig.tutorial/raw/master/PCAWG7_0.0.1.tar.gz
+
+https://github.com/steverozen/ISMB.mutsig.tutorial/raw/master/mSigBG_1.0.0.tar.gz
+
+and put them in the current working directory for your R session, and then
+ 
+
+```
+install.packages("PCAWG7_0.0.1.tar.gz")
+install.packages("mSigBG_1.0.0.tar.gz")
+```
+
+4.2.2 
+
+If you have Rtools you can install the GitHub
+packages with the R command line:
+```
+remotes::install_github("steverozen/mSigBG", ref = "1.0-branch", force = TRUE)
+remotes::install_github("steverozen/PCAWG7", force = TRUE)
+```
+
+If you want to install Rtools, the instructions are as follows: 
 
 **Windows:**   
 Please download and install Rtools from CRAN: https://cran.rstudio.com/bin/windows/Rtools/.  
@@ -51,20 +76,13 @@ sudo apt-get install r-base-dev
 ```
 For other versions of Linux please consult their documentation to determine how to install a basic GNU development tool chain.   
 
-After you have installed the development tool, you can install the GitHub
-packages with the R command line:
-```
-remotes::install_github("steverozen/mSigBG", ref = "1.0-branch", force = TRUE)
-remotes::install_github("steverozen/PCAWG7", force = TRUE)
-```
-
 If you have difficulties contact Nanhai JIANG at nanhai.jiang@u.duke.nus.edu.
 
 You will need R and the above packages for the practicum on July 11. 
 
-The practicum inputs are at https://github.com/steverozen/ISMB.mutsig.tutorial/raw/master/ISMB.mutational.sigatures.practicum.zip. 
+## The practicum inputs are at https://github.com/steverozen/ISMB.mutsig.tutorial/raw/master/ISMB.mutational.sigatures.practicum.zip. 
 
-The slides are:
+## The slides are:
 
 0. https://github.com/steverozen/ISMB.mutsig.tutorial/raw/master/Tut1.Lecture.0.short.intro.pptx
 1. https://github.com/steverozen/ISMB.mutsig.tutorial/raw/master/Tut1.Lecture.1.Mutational-Signatures%202020_07_10.pptx
