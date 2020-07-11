@@ -45,9 +45,10 @@ and put them in the current working directory for your R session, and then
  
 
 ```
-install.packages("PCAWG7_0.0.1.tar.gz")
-install.packages("mSigBG_1.0.0.tar.gz")
+install.packages("PCAWG7_0.0.1.tar.gz", repos = NULL, type = "source")
+install.packages("mSigBG_1.0.0.tar.gz", repos = NULL, type = "source")
 ```
+We think you will get a warnings, but we think the installations will work.
 
 4.2.2 
 
