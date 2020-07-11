@@ -2,6 +2,16 @@
 
 Welcome to the ISMB2020 Online Mutational Signature Analysis Tutorial, July 11 and 12, 2020 (https://www.iscb.org/ismb2020-program/tutorials#tut1)
 
+## Slack info
+
+From Arnoud Boot/SR-lab to Everyone:  08:58 PM
+https://join.slack.com/t/international-pll7528/shared_invite/zt-fjw1i0g5-ogelj7jCcV8fYEy7afwfgg 
+(to register slack account)
+after you signed up for an account; join the session for this tutorial:
+https://international-pll7528.slack.com/archives/C01763XTWPJ
+
+
+
 ## Please do before the tutorial
 
 1. Please have R >= 4.0.0 installed on your computer. You can find the latest release at 
