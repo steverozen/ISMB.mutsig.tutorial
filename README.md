@@ -2,6 +2,10 @@
 
 Welcome to the ISMB2020 Online Mutational Signature Analysis Tutorial, July 11 and 12, 2020 (https://www.iscb.org/ismb2020-program/tutorials#tut1)
 
+## Signature extraction excercise is at
+
+https://github.com/steverozen/ISMB.mutsig.tutorial/raw/master/exercise.in.interpreting.extraction.results.zip
+
 ## Slack info
 
 To register for slack account:    https://join.slack.com/t/international-pll7528/shared_invite/zt-fjw1i0g5-ogelj7jCcV8fYEy7afwfgg   
