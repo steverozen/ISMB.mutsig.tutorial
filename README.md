@@ -4,32 +4,33 @@ Welcome to the ISMB2020 Online Mutational Signature Analysis Tutorial, July 11 a
 
 ## Slack info
 
-From Arnoud Boot/SR-lab to Everyone:  08:58 PM
-https://join.slack.com/t/international-pll7528/shared_invite/zt-fjw1i0g5-ogelj7jCcV8fYEy7afwfgg 
-(to register slack account)
-after you signed up for an account; join the session for this tutorial:
-https://international-pll7528.slack.com/archives/C01763XTWPJ
-
+To register for slack account:    https://join.slack.com/t/international-pll7528/shared_invite/zt-fjw1i0g5-ogelj7jCcV8fYEy7afwfgg   
+After you signed up for an account, join the session for this tutorial: https://international-pll7528.slack.com/archives/C01763XTWPJ
 
 
 ## Please do before the tutorial
 
-1. Please have R >= 4.0.0 installed on your computer. You can find the latest release at 
+1.Please have R >= 4.0.0 installed on your computer. You can find the latest release at 
 https://cloud.r-project.org/
 
-2. Please install the package ICAMS and its prerequisites from CRAN.
+2.Please install the package ICAMS and its prerequisites from CRAN.
 ```
 install.packages("ICAMS")
 ```
 
-3. Please install BSgenome.Hsapiens.1000genomes.hs37d5 from Bioconductor:
+3.Please install BSgenome.Hsapiens.1000genomes.hs37d5 from Bioconductor:
 ```
 install.packages("BiocManager")
 BiocManager::install("BSgenome.Hsapiens.1000genomes.hs37d5")
 ```
-4. Additional R libraries that will be needed:
+4.Additional R libraries that will be needed:
 
-4.1 CRAN packages philentropy, gplots, factoextra
+4.1 CRAN packages: philentropy, gplots, factoextra
+```
+install.packages("philentropy")
+install.packages("gplots")
+install.packages("factoextra")
+```
 
 4.2 GitHub packages:  
 
@@ -48,13 +49,14 @@ and put them in the current working directory for your R session, and then
 install.packages("PCAWG7_0.0.1.tar.gz", repos = NULL, type = "source")
 install.packages("mSigBG_1.0.0.tar.gz", repos = NULL, type = "source")
 ```
-We think you will get a warnings, but we think the installations will work.
+We think you will get a warning, but we think the installations will work.
 
 4.2.2 
 
 If you have Rtools you can install the GitHub
 packages with the R command line:
 ```
+install.packages("remotes")
 remotes::install_github("steverozen/mSigBG", ref = "1.0-branch", force = TRUE)
 remotes::install_github("steverozen/PCAWG7", force = TRUE)
 ```
