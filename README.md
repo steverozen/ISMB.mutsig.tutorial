@@ -6,6 +6,12 @@ Welcome to the ISMB2020 Online Mutational Signature Analysis Tutorial, July 11 a
 
 https://github.com/steverozen/ISMB.mutsig.tutorial/raw/master/exercise.in.interpreting.extraction.results.zip
 
+The input data was not in the .zip; it is at
+
+https://github.com/steverozen/ISMB.mutsig.tutorial/raw/master/3.types.ground.truth.spectra.1000.size.csv
+
+(1000.size refers to a dispersion parameters I used when adding variance to the spectra.)
+
 ## Slack info
 
 To register for slack account:    https://join.slack.com/t/international-pll7528/shared_invite/zt-fjw1i0g5-ogelj7jCcV8fYEy7afwfgg   
