@@ -46,7 +46,7 @@ install.packages("factoextra")
 
 Thare are 2 ways to install these.  
 
-4.2.1 If you do not have Rtools, then download from 
+4.2.1 If you do not have Rtools (Windows) or XCode (Mac), then download from 
 
 https://github.com/steverozen/ISMB.mutsig.tutorial/raw/master/PCAWG7_0.0.1.tar.gz
 
@@ -63,7 +63,7 @@ We think you will get a warning, but we think the installations will work.
 
 4.2.2 
 
-If you have Rtools you can install the GitHub
+If you have Rtools (Windows) or XCode (Mac), you can install the GitHub
 packages with the R command line:
 ```
 install.packages("remotes")
@@ -71,7 +71,7 @@ remotes::install_github("steverozen/mSigBG", ref = "1.0-branch", force = TRUE)
 remotes::install_github("steverozen/PCAWG7", force = TRUE)
 ```
 
-If you want to install Rtools, the instructions are as follows: 
+If you want to install Rtools (Windows) or XCode (Mac), the instructions are as follows: 
 
 **Windows:**   
 Please download and install Rtools from CRAN: https://cran.rstudio.com/bin/windows/Rtools/.  
